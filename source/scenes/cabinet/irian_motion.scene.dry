@@ -152,13 +152,13 @@ if (window && d3) {
     parliament.width(width).height(height).innerRadiusCoef(0.4);
     parliament.enter.fromCenter(true).smallToBig(true);
     parliament.exit.toCenter(false).bigToSmall(true);
-    d3.select("#irian_motion").datum(data).call(parliament);
+    d3.select("#irian_voc_motion").datum(data).call(parliament);
 }
 !}
 
 {!<svg id="irian_voc_motion" style="width: 500px; height: 250px;"> </svg>!}
 
-The government parties were unable to muster anything like full cohesion, with government parties, like the <span style="color: #FF6666;">**PSI**</span>, abstaining from the vote. But the motion was somehow defeated, by the narrow margin of [+ irian_motion_nay +] to [+ irian_motion_nay +]. 
+The motion has somehow been defeated, by the narrow margin of [+ irian_motion_nay +] to [+ irian_motion_aye +]. The government parties were unable to muster anything like full cohesion, with government parties, like the <span style="color: #FF6666;">**PSI**</span>, abstaining from the vote. Nevertheless, Natsir's tenure continue, albeit in an extremely weak position.
 
 Eventually, the immediate crisis has passed.
 
