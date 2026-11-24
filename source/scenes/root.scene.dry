@@ -494,7 +494,9 @@ Q.timers = ['advisor_action', 'confronting_namasyumiis', 'crisis_program',
             'iron_front', 'media', 'enemies',
             'party_organimasyumiations', 'rally', 'reichsbanner',
             'shuffle_leadership', 'streetfighting', 'peoples_party',
-            'party_disunity',
+            'party_disunity', 
+            // motions
+            'irian_motion', 'r39_motion', 'formateur_motion',
             // govt
             'agricultural_policy', 'domestic_enemies', 'fiscal_policy',
             'foreign_policy', 'judiciary', 'labor_affairs', 'military_policy',
@@ -543,7 +545,7 @@ Q.next_election_time = 5;
 Q.next_congress_year = 1951;
 Q.next_congress_month = 'May';
 Q.vice_chair = 'Sarmidi Mangunsarkoro';
-Q.gensec = ' Sukri Hadikusumo';
+Q.gensec = 'Sukri Hadikusumo';
 
 
 
