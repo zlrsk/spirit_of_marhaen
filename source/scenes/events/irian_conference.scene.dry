@@ -74,6 +74,28 @@ The days and weeks came and by, and soon thereafter the deadline on 27 December 
 
  > *If a settlement by negotiation cannot be arrived at within this year, a major conflict will arise on the issue of who will be in power in that island from then onward. For, once again I declare: We will not stop fighting, we will continue fighting, we will keep on fighting whatever may come, until West Irian has been returned to our fold.*
 
- - Sukarno, 17 August 1950
+ — Sukarno, 17 August 1950
 
- - @root: Continue...
+- @natsir_weak: Continue..
+
+@natsir_weak
+new-page: true
+
+= The Irian Failure
+
+With yet another failure, especially in such an important topic that is the Irian issue, enthusiasm within the Natsir cabinet is steadily fading away and many of its supporters are beginning to express doubts. On the other side, much of our members are jubilant and are calling us to exploit this weakness.
+
+- @kusnan_motion: Move a motion criticizing the government's handling of the Irian issue.
+- @no_motion: Wait the issue out and focus on rallying our support.
+
+@kusnan_motion
+subtitle: It would essentially serve as a no confidence motion, and should it pass the cabinet shall fall.
+on-arrival: irian_motion_timer += 2; masyumi_relation -= 3;
+
+Fellow member of parliament Rahendra Kusnan has called a motion urging the government to continue pushing for West Irian and abolish the Netherlands-Indonesia Union, among other things.
+
+@no_motion
+subtitle: After all, the Natsir cabinet is at its lowest point, it would collapse on its own in a month or two.
+on-arrival: sidik_dissent += 5; partindo_dissent += 5; wilopo_dissent += 2; 
+
+We have decided to wait the issue out. Much of our members express disapproval, believing we have missed a golden opportunity to take down the Natsir cabinet once and for all.
