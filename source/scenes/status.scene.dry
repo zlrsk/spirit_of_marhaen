@@ -213,7 +213,7 @@ Support for the Republic: [+ pro_republic_disp +]%
 = Dwitunggal
 <hr>
 
-<div style="position: absolute;right: 0px;top: 0px;font-size: 0.75em;">[?]</div> 
+{!<div style="position: absolute;right: 0px;top: 0px;font-size: 0.75em;">[?]</div>!}
 
 <div style="display: flex;gap: 5px;margin-top: 5px;margin-bottom: 5px;margin-left: -3px;justify-content: center;">
 <img src="img/portraits/soekarno.jpg" alt="Soekarno" style="width: 45%;border: 5px solid var(--card-border-color);"> 
