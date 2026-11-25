@@ -36,6 +36,7 @@ A vote was taken on the Kusnan motion.
 
 @kusnan_nay
 on-arrival: {! Q.irian_motion_nay = 39 + Math.round(Q.masyumi_faction * 46 / 100); Q.irian_motion_aye = 63; !}
+go-to: kusnan_nay if irian_motion_nay > irian_motion_aye; kusnan_aye if irian_motion_nay < irian_motion_aye; kusnan_tie if irian_motion_nay = irian_motion_aye;
 on-display: {!
 const data = [
     {
@@ -156,11 +157,27 @@ if (window && d3) {
 }
 !}
 
+@kusnan_nay
+
 {!<svg id="irian_voc_motion" style="width: 500px; height: 250px;"> </svg>!}
 
-The motion has somehow been defeated, by the narrow margin of [+ irian_motion_nay +] to [+ irian_motion_aye +]. The government parties were unable to muster anything like full cohesion, with government parties, like the <span style="color: #FF6666;">**PSI**</span>, abstaining from the vote. Nevertheless, Natsir's tenure continue, albeit in an extremely weak position.
+The motion has somehow been defeated, by the narrow margin of [+ irian_motion_nay +] to [+ irian_motion_aye +]. The government parties were unable to muster anything like full cohesion, with government parties, like the <span style="color: #FF6666;">**PSI**</span>, abstaining from the vote. 
 
-Eventually, the immediate crisis has passed.
+Nevertheless, Natsir's cabinet lives for another day, albeit in an extremely weak position.
 
 - @root: Continue...
 
+@kusnan_aye
+on-arrival: kusnan_passed = 1
+
+{!<svg id="irian_voc_motion" style="width: 500px; height: 250px;"> </svg>!}
+
+The motion has passed, by the narrow margin of [+ irian_motion_aye +] to [+ irian_motion_nay +]! The government parties were unable to muster anything like full cohesion, with government parties, like the <span style="color: #FF6666;">**PSI**</span>, abstaining from the vote. 
+
+Natsir stated that a clear conflict has existed between cabinet and parliament. He challenged parliament to choose between yielding on the matter of the Irian issue or moving a direct motion of no confidence in the cabinet.
+
+- @root: Natsir's tenure is nearing its end...
+
+@kusnan_tie
+
+what how
