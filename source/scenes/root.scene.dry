@@ -316,8 +316,9 @@ Q.economic_records = [];
 Q.first_cabinet_formed = 0
 Q.president = "Sukarno";
 Q.vice_pres = "Mohammad Hatta";
-Q.chancellor = "Mohammad Natsir";
-Q.chancellor_party = 'Masyumi';
+Q.prime_minister = "Mohammad Natsir";
+Q.pm_short = "Natsir";
+Q.prime_minister_party = 'Masyumi';
 Q.deputy_pm_count = 1;
 Q.pni_in_government = 0;
 Q.masyumi_in_government = 1;
@@ -508,7 +509,7 @@ Q.timers = ['advisor_action', 'confronting_namasyumiis', 'crisis_program',
             'education_science', 'curriculum',
             // events
             'emergency_cuts', 'unemployment_insurance',
-            'sa_ban', 'sh_ban', 'papen_chancellor',
+            'sa_ban', 'sh_ban', 'papen_prime_minister',
             'pki_policy', 'pki_ultimatum', 'popular_front_dispute',
             'high_inflation', 'banking_crisis', 'march_on_berlin',
             'understanding_enemy', 'schleichers_schemes'];
