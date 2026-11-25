@@ -243,7 +243,7 @@ Support for the Republic: [+ pro_republic_disp +]%
 <div style="text-align: center;color: var(--unavailable-color);font-size: 0.8em;">*Prime Minister*</div> 
 
 <div style="display: flex;gap: 5px;margin: 5px 0px;justify-content: center;">
-<div style="text-align: center;cursor: pointer;width: 40%;height: 25px;align-items: center;font-size: 1.2em;border: 1px solid var(--text-color)" onclick="window.dendryUI.dendryEngine.goToScene('cabinet_status')">CABINET</div>
+{!<div style="text-align: center;cursor: pointer;width: 40%;height: 25px;align-items: center;font-size: 1.2em;border: 1px solid var(--text-color)" onclick="window.dendryUI.dendryEngine.goToScene('cabinet_status')">CABINET</div>!}
 </div>
 
 @parliament
