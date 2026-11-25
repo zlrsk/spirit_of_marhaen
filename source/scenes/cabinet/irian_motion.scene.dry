@@ -38,7 +38,7 @@ A vote was taken on the Kusnan motion.
 
 @kusnan_nay
 on-arrival: psii_relation += 3;
-view-if: irian_motion_nay > irian_motion_aye;
+view-if: irian_motion_nay > irian_motion_aye
 on-display: {!
 const data = [
     {
@@ -169,7 +169,7 @@ Nevertheless, Natsir's cabinet lives for another day, albeit in an extremely wea
 
 @kusnan_aye
 on-arrival: kusnan_passed = 1; masyumi_relation -= 5; psii_relation += 3;
-view-if: irian_motion_nay < irian_motion_aye;
+view-if: irian_motion_nay < irian_motion_aye
 on-display: {!
 const data = [
     {
