@@ -225,15 +225,24 @@ Support for the Republic: [+ pro_republic_disp +]%
 <div style="text-align: center;width: 50%;color: var(--unavailable-color);font-size: 0.8em;">*President*</div>
 <div style="text-align: center;width: 50%;color: var(--unavailable-color);font-size: 0.8em;">*Vice President*</div>
 </div>
+<div style="text-align: center;">Relations</div> 
+<div style="display: flex;justify-content: left;">
+<div style="text-align: center;width: 50%;">[+ sukarno_relations : relationships +]</div>
+<div style="text-align: center;width: 50%;">[+ hatta_relations : relationships +]</div>
+</div>
+
 
 = Cabinet 
 <hr>
 
 [? if prime_minister == "Mohammad Natsir": <div><img src="img/portraits/natsir.jpg" alt="Natsir" style="width: 50%;display: block;margin: auto;margin-top: 5px;margin-bottom: 5px;border: 5px solid var(--card-border-color);"></div> ?][? if first_cabinet_formed and prime_minister == "Susanto": <div><img src="img/portraits/susanto.jpg" alt="Susanto" style="width: 50%;display: block;margin: auto;margin-top: 5px;margin-bottom: 5px;border: 5px solid var(--card-border-color);"></div> ?]
-<div style="text-align: center;">**[+ prime_minister +]** ([? if prime_minister_party == "Masyumi":<span style="color: #000000;">**M**</span>?][? if prime_minister_party == "PNI":<span style="color: #990000;">**PNI**</span>?])</div> 
+<div style="text-align: center;">**[+ prime_minister +]**</div> 
+<div style="text-align: center;font-size: 0.8em;">([? if prime_minister_party == "M":<span style="color: #000000;">**M**</span>?][? if prime_minister_party == "PNI":<span style="color: #990000;">**PNI**</span>?])</div>
 <div style="text-align: center;color: var(--unavailable-color);font-size: 0.8em;">*Prime Minister*</div> 
 
-{!<div style="display: flex;gap: 5px;margin: 5px 0px;justify-content: center;text-align: center;cursor: pointer;width: 40%;height: 25px;align-items: center;font-size: 1.2em;border: 1px solid var(--text-color)" onclick="window.dendryUI.dendryEngine.goToScene('cabinet_status')">CABINET</div>!}
+<div style="display: flex;gap: 5px;margin: 5px 0px;justify-content: center;">
+{!<div style="text-align: center;cursor: pointer;width: 40%;height: 25px;align-items: center;font-size: 1.2em;border: 1px solid var(--text-color)" onclick="window.dendryUI.dendryEngine.goToScene('cabinet_status')">CABINET</div>!}
+</div>
 
 @parliament
 on-arrival: {!

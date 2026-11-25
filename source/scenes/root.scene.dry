@@ -106,6 +106,11 @@ Q.pir_relation = 55;
 Q.prn_relation = 60;
 Q.murba_relation = 52;
 
+// hmm... maybe we can play nice with Hindenburg???
+Q.sukarno_relation = 58;
+Q.hatta_relations = 45;
+// whether or not hindenburg can dismiss the government.
+Q.sukarno_enabled = 0;
 
 Q.pki_leader = "Alimin";
 Q.pki_ideology = "Marxism-Leninism";
@@ -115,11 +120,6 @@ Q.masyumi_faction = 65;
 Q.masyumi_ideology = "Political Islam";
 Q.pni_leader = "Sidik Djojosukarto";
 Q.prn_name = "PNI-M";
-
-// hmm... maybe we can play nice with Hindenburg???
-Q.soekarno_relation = 25;
-// whether or not hindenburg can dismiss the government.
-Q.soekarno_enabled = 0;
 
 
 
