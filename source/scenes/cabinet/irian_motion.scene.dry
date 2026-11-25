@@ -22,7 +22,7 @@ The cabinet expressed that there was little difference between its own standpoin
 - @kusnan: But wait, there's more..
 
 @kusnan
-on-arrival: {! Q.irian_motion_nay = 39 + Math.round(Q.masyumi_faction * 46 / 100); Q.irian_motion_aye = 63; !}
+on-arrival: {! Q.irian_motion_nay = 36 + Math.round(Q.masyumi_faction * 46 / 100); Q.irian_motion_aye = 63; !}
 
 Another slightly stronger motion put on the same time as Djody's was that of our Rahendra Kusnan, signed by <span style="color: #990000;">**PNI**</span> and <span style="color: #003319;">**PSII**</span> members. It urged the government:
 

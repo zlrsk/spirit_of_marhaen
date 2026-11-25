@@ -17,7 +17,7 @@ In order to end the seemingly endless parliamentary bickering, the Natsir cabine
 
 @voc
 on-departure: prn_name = "PRN";
-on-arrival: {! Q.natsir_voc_aye = 88 + Math.round(Q.masyumi_faction * 46 / 100); Q.natsir_voc_nay = 66; !}
+on-arrival: {! Q.natsir_voc_aye = 88 + Math.round(Q.masyumi_faction * 46 / 100); Q.natsir_voc_nay = 73; !}
 on-display: {!
 const data = [
     {
@@ -52,7 +52,7 @@ const data = [
         "id": "other-natsir-nay",
         "legend": "Other (Nay)",
         "name": "Other",
-        "seats": 8,
+        "seats": 15,
         "color": "#c51313",
     },
     {
@@ -66,7 +66,7 @@ const data = [
         "id": "other-natsir-absent",
         "legend": "Other (Absent)",
         "name": "Other",
-        "seats": 18,
+        "seats": 11,
         "color": "#9e9e9e",
     },
     {
