@@ -157,9 +157,9 @@ if (window && d3) {
 }
 !}
 
-@kusnan_nay
-
 {!<svg id="irian_voc_motion" style="width: 500px; height: 250px;"> </svg>!}
+
+@kusnan_nay
 
 The motion has somehow been defeated, by the narrow margin of [+ irian_motion_nay +] to [+ irian_motion_aye +]. The government parties were unable to muster anything like full cohesion, with government parties, like the <span style="color: #FF6666;">**PSI**</span>, abstaining from the vote. 
 
@@ -169,8 +169,6 @@ Nevertheless, Natsir's cabinet lives for another day, albeit in an extremely wea
 
 @kusnan_aye
 on-arrival: kusnan_passed = 1
-
-{!<svg id="irian_voc_motion" style="width: 500px; height: 250px;"> </svg>!}
 
 The motion has passed, by the narrow margin of [+ irian_motion_aye +] to [+ irian_motion_nay +]! The government parties were unable to muster anything like full cohesion, with government parties, like the <span style="color: #FF6666;">**PSI**</span>, abstaining from the vote. 
 
