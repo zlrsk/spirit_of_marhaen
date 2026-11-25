@@ -32,9 +32,9 @@ Another slightly stronger motion put on the same time as Djody's was that of our
 
 A vote was taken on the Kusnan motion. 
 
-- @kusnan_nay: The voting commences..
+- @kusnan_vote: The voting commences..
 
-@kusnan_nay
+@kusnan_vote
 on-arrival: {! Q.irian_motion_nay = 39 + Math.round(Q.masyumi_faction * 46 / 100); Q.irian_motion_aye = 63; !}
 go-to: kusnan_nay if irian_motion_nay > irian_motion_aye; kusnan_aye if irian_motion_nay < irian_motion_aye; kusnan_tie if irian_motion_nay = irian_motion_aye;
 on-display: {!
