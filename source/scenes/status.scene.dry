@@ -233,7 +233,9 @@ Support for the Republic: [+ pro_republic_disp +]%
 <div style="text-align: center;">**[+ prime_minister +]** ([? if prime_minister_party == "Masyumi":<span style="color: #000000;">**M**</span>?][? if prime_minister_party == "PNI":<span style="color: #990000;">**PNI**</span>?])</div> 
 <div style="text-align: center;color: var(--unavailable-color);font-size: 0.8em;">*Prime Minister*</div> 
 
-{!<div style="text-align: center;border: 3px solid #000" onclick="window.dendryUI.dendryEngine.goToScene('cabinet')">CABINET</div>!}
+<div style="display: flex;gap: 5px;margin-top: 5px;margin-bottom: 5px;justify-content: center;">
+{!<div style="text-align: center;width: 50%;font-size: 1.2em;border: 3px solid var(--text-color)" onclick="window.dendryUI.dendryEngine.goToScene('cabinet')">CABINET</div>!}
+</div> 
 
 [? if deputy_pm_count > 1: First Deputy Prime Minister: <br>[+ deputy_pm +] ([? if deputy_pm_party == "PNI": <span style="color: #990000;font-weight: bold;">[+ deputy_pm_party +]</span>?][? if deputy_pm_party == "M": <span style="color: #000000;font-weight: bold;">[+ deputy_pm_party +]</span>?][? if deputy_pm_party == "Murba": <span style="color: #ff3333;">[+ deputy_pm_party +]</span>?][? if deputy_pm_party == "PSI": <span style="color: #ff9999;font-weight: bold;">[+ deputy_pm_party +]</span>?][? if deputy_pm_party == "PSII": <span style="color: #003319;font-weight: bold;">[+ deputy_pm_party +]</span>?][? if deputy_pm_party == "Parkindo": <span style="color: #66b2ff;">[+ deputy_pm_party +]</span>?][? if deputy_pm_party == "Katolik": <span style="color: #330000;font-weight: bold;">[+ deputy_pm_party +]</span>?][? if deputy_pm_party == "PIR": <span style="color: #ff9933;font-weight: bold;">[+ deputy_pm_party +]</span>?][? if deputy_pm_party == "PRN": <span style="color: #545454;font-weight: bold;">[+ deputy_pm_party +]</span>?][? if deputy_pm_party == "Demokrat": <span style="color: #003694;">[+ deputy_pm_party +]</span>?][? if deputy_pm_party == "I": <span style="font-weight: bold;">[+ deputy_pm_party +]</span>?]) ?]
 
