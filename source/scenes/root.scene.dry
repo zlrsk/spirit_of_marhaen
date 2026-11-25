@@ -108,7 +108,7 @@ Q.murba_relation = 52;
 
 // hmm... maybe we can play nice with Hindenburg???
 Q.sukarno_relation = 58;
-Q.hatta_relations = 45;
+Q.hatta_relation = 45;
 // whether or not hindenburg can dismiss the government.
 Q.sukarno_enabled = 0;
 

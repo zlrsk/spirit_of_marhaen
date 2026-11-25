@@ -210,8 +210,10 @@ Support for the Republic: [+ pro_republic_disp +]%
 
 @paramilitaries
 
-= Government 
+= Dwitunggal
 <hr>
+
+<div style="position: absolute;right: 0px;top: 0px;font-size: 0.75em;">[?]</div> 
 
 <div style="display: flex;gap: 5px;margin-top: 5px;margin-bottom: 5px;margin-left: -3px;justify-content: center;">
 <img src="img/portraits/soekarno.jpg" alt="Soekarno" style="width: 45%;border: 5px solid var(--card-border-color);"> 
@@ -225,11 +227,13 @@ Support for the Republic: [+ pro_republic_disp +]%
 <div style="text-align: center;width: 50%;color: var(--unavailable-color);font-size: 0.8em;">*President*</div>
 <div style="text-align: center;width: 50%;color: var(--unavailable-color);font-size: 0.8em;">*Vice President*</div>
 </div>
-<div style="text-align: center;">Relations</div> 
+<hr>
+<div style="text-align: center;">**Relations**</div> 
 <div style="display: flex;justify-content: left;">
-<div style="text-align: center;width: 50%;">[+ sukarno_relations : relationships +]</div>
-<div style="text-align: center;width: 50%;">[+ hatta_relations : relationships +]</div>
+<div style="text-align: center;width: 50%;">[+ sukarno_relation : relationships +]</div>
+<div style="text-align: center;width: 50%;">[+ hatta_relation : relationships +]</div>
 </div>
+
 
 
 = Cabinet 
