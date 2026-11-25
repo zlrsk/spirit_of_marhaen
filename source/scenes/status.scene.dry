@@ -213,7 +213,7 @@ Support for the Republic: [+ pro_republic_disp +]%
 = Dwitunggal
 <hr>
 
-{!<div style="position: absolute;right: 0px;top: 0px;font-size: 0.75em;">[?]</div>!}
+{!<div style="position: absolute;right: 5px;top: 5px;font-size: 0.75em;">[?]</div>!}
 
 <div style="display: flex;gap: 5px;margin-top: 5px;margin-bottom: 5px;margin-left: -3px;justify-content: center;">
 <img src="img/portraits/soekarno.jpg" alt="Soekarno" style="width: 45%;border: 5px solid var(--card-border-color);"> 
@@ -281,8 +281,8 @@ if (d3 && window && Q.started) {
 }
 !}
 
-<hr>
 = Parliament
+<hr>
 
 [? if dprs_speaker == "Sartono": <div><img src="img/portraits/sartono.jpg" alt="Sartono" style="width: 50%;display: block;margin: auto;margin-top: 5px;margin-bottom: 5px;border: 5px solid var(--card-border-color);"></div> ?]
 <div style="text-align: center;">**[+ dprs_speaker +]** ([? if dprs_speaker_party == "Masyumi":<span style="color: #000000;">**M**</span>?][? if dprs_speaker_party == "PNI":<span style="color: #990000;">**PNI**</span>?])</div>
