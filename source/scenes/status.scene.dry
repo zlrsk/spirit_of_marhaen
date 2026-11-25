@@ -234,7 +234,7 @@ Support for the Republic: [+ pro_republic_disp +]%
 <div style="text-align: center;color: var(--unavailable-color);font-size: 0.8em;">*Prime Minister*</div> 
 
 <div style="display: flex;gap: 5px;margin-top: 5px;margin-bottom: 5px;justify-content: center;">
-{!<div style="text-align: center;width: 40%;height: 20px;font-size: 1.2em;border: 1px solid var(--text-color)" onclick="window.dendryUI.dendryEngine.goToScene('cabinet_status')">CABINET</div>!}
+{!<div style="text-align: center;cursor: pointer;width: 40%;height: 50px;font-size: 1.2em;border: 1px solid var(--text-color)" onclick="window.dendryUI.dendryEngine.goToScene('cabinet_status')">CABINET</div>!}
 </div> 
 
 @parliament
@@ -256,7 +256,7 @@ if (d3 && window && Q.started) {
     var data = Q.parliament_diagram;
     var screenWidth = document.getElementById('qualities').offsetWidth;
 
-    var width = Math.max(Math.min(screenWidth , 250), 120);
+    var width = Math.max(Math.min(screenWidth , 500), 120);
     var heightRatio = screenWidth < 350 ? 0.5 : 0.6;
     var height = width * heightRatio;
 
